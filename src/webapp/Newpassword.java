@@ -19,7 +19,7 @@ public class Newpassword extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out= response.getWriter();
 	
-		if("hema.sky21@gmail.com".equals(email) && "hema@2131".equals(newPassword)&& "hema@2131".equals(confirmPassword))
+		if("email".equals(email) && "password".equals(newPassword)&& "password".equals(confirmPassword))
 		{
 			System.out.println("create password");
 		}

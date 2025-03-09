@@ -27,7 +27,8 @@ public class Register extends HttpServlet {
         System.out.println("Gender: " + gender);
         response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
- if("hema chowdary".equals(fname)&& "dhulipalla".equals(lname) && "hema.sky12@gmail.com".equals(email) && "hema@3110".contentEquals(password)&& "female".contentEquals(gender))
+ if("fname".equals(fname)&& "lname".equals(lname) && "email".equals(email) 
+		 && "password".contentEquals(password)&& "gender".contentEquals(gender))
 		{
 			System.out.println("register sucessful");
 		}

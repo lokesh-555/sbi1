@@ -18,13 +18,13 @@ public class login extends HttpServlet {
 		String password=request.getParameter("password");
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
-		if("hemachowdary3121@gmailcom".equals(email)&& "hema@3121".equals(password))
+		if(email.equals(email)&& password.equals(password))
 		{
-			System.out.println("signin");
+			System.out.println("signuot");
 		}
 			else
 			{
-				System.out.println("signup");
+				System.out.println("invalid");
 			}
 		}
 }
